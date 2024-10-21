@@ -22,13 +22,7 @@ TextStyle stylish2(double size, Color color, {bool isBold = false}) {
     color: color,
   );
 }
- TextStyle stylish3(double size, Color color, {bool isBold = false}) {
-  return GoogleFonts.itim(
-    fontSize: size,
-    fontWeight: isBold ? FontWeight.bold : FontWeight.normal,
-    color: color,
-  );
-}
+
 static ThemeData lightTheme = ThemeData (
   brightness: Brightness.light,
   useMaterial3: true,
